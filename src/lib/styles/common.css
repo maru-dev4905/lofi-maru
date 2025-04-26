@@ -4,6 +4,7 @@ header{
   left: 0;
   width: 225px;
   height: 100vh;
+  float: left;
   padding: 20px 15px 30px;
   background-color: #f9f9f9;
   border-right: 1px solid #ebecf0;
@@ -41,5 +42,6 @@ header .logo img{
 }
 
 main{
-  padding-top: 80px;
+  width: calc(100% - 225px);
+  margin-left: auto;
 }
