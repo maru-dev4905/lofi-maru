@@ -4,11 +4,11 @@
 </script>
 
 <header>
+	<h1 class="logo">
+		<a href="/"><img src="/assets/images/common/logo.svg" alt="LoFi Maru"></a>
+	</h1>
 	<nav class="gnb">
 		<ul>
-			<li>
-				<a href="/" class:active={currentPath === '/'}>Home</a>
-			</li>
 			<li>
 				<a href="/about" class:active={currentPath === '/about'}>About</a>
 			</li>

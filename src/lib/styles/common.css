@@ -1,29 +1,43 @@
 header{
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 80px;
-  background-color: #fff;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+  width: 225px;
+  height: 100vh;
+  padding: 20px 15px 30px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ebecf0;
 }
 header .gnb{
+  width: 100%;
   height: 100%;
+  padding: 40px 0;
 }
 header .gnb ul{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
   height:100%;
 }
 header .gnb ul a{
-  color: #aaa;
+  display: block;
+  padding: 12px 10px;
+  font-size: 16px;
+  color: #646464;
+  transition: padding-left .25s ease-in-out;
+}
+header .gnb ul a:hover{
+  padding-left: 20px;
 }
 header .gnb ul a.active{
   color: #000;
-  font-weight: 600;
-  border-bottom: 2px solid #000;
+  font-weight: 800;
+  padding-left: 20px;
+}
+header .logo{
+  width: 100%;
+}
+header .logo img{
+  width: 100%;
 }
 
 main{
